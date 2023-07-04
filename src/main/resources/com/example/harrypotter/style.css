@@ -1,0 +1,13 @@
+.progress-bar .bar {
+    -fx-accent: #FF0000; /* Set the color of the progress bar */
+}
+
+
+.text-field:text {
+  -fx-text-fill: white;
+}
+
+
+
+
+

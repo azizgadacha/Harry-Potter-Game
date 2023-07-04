@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="374.0" prefWidth="668.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.harrypotter.Controller.PetChoise">
+   <children>
+      <ImageView fitHeight="457.0" fitWidth="1022.0" layoutX="-269.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/1309409.jpg" />
+         </image></ImageView>
+      <ImageView fitHeight="112.0" fitWidth="109.0" layoutX="42.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/cat-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="198.0" layoutX="159.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/amphibian_toads_600x300-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="83.0" fitWidth="170.0" layoutX="565.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/harry-potter-logo-black-and-white-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="84.0" fitWidth="141.0" layoutX="365.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/rat-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="273.0" layoutY="376.0" prefHeight="31.0" prefWidth="689.0" text="Choise Your animal" textFill="WHITE" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="273.0" AnchorPane.rightAnchor="-209.0" AnchorPane.topAnchor="376.0">
+         <font>
+            <Font name="Bernard MT Condensed" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="281.0" prefHeight="31.0" prefWidth="53.0" style="-fx-background-color: WHITE; -fx-border-radius: 30; -fx-background-radius: 30;" text="   CAT">
+         <font>
+            <Font name="Bernard MT Condensed" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="503.0" layoutY="290.0" prefHeight="31.0" prefWidth="141.0" textFill="WHITE">
+         <font>
+            <Font name="Bernard MT Condensed" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="599.0" layoutY="281.0" prefHeight="31.0" prefWidth="69.0" style="-fx-background-color: WHITE; -fx-border-radius: 30; -fx-background-radius: 30;" text="     OWL">
+         <font>
+            <Font name="Bernard MT Condensed" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="401.0" layoutY="281.0" prefHeight="31.0" prefWidth="69.0" style="-fx-background-color: WHITE; -fx-border-radius: 30; -fx-background-radius: 30;" text="    RAT">
+         <font>
+            <Font name="Bernard MT Condensed" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="131.0" fitWidth="102.0" layoutX="582.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/owl-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-64.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="555.0" layoutY="125.0" mnemonicParsing="false" onAction="#OwlClicj" prefHeight="147.0" prefWidth="156.0" style="-fx-background-color: none; -fx-border-radius: 30; -fx-border-color: white;" />
+      <Button layoutX="358.0" layoutY="126.0" mnemonicParsing="false" onAction="#ClickRat" prefHeight="147.0" prefWidth="156.0" style="-fx-background-color: none; -fx-border-radius: 30; -fx-border-color: white;" />
+      <Button layoutX="180.0" layoutY="126.0" mnemonicParsing="false" onAction="#ChoiseToad" prefHeight="147.0" prefWidth="156.0" style="-fx-background-color: none; -fx-border-radius: 30; -fx-border-color: white;" />
+      <Button fx:id="CatButton" layoutX="14.0" layoutY="125.0" mnemonicParsing="false" onAction="#ChoiseCat" prefHeight="147.0" prefWidth="156.0" style="-fx-background-color: none; -fx-border-radius: 30; -fx-border-color: white;" />
+      <Label layoutX="224.0" layoutY="281.0" prefHeight="31.0" prefWidth="69.0" style="-fx-background-color: WHITE; -fx-border-radius: 30; -fx-background-radius: 30;" text="     TOAD">
+         <font>
+            <Font name="Bernard MT Condensed" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="18.0" fitWidth="19.0" layoutX="726.0" layoutY="5.0" onMouseClicked="#closePage" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/cross.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
